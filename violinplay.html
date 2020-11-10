@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> The Violin Play </title>
+        <link rel = "stylesheet" href="violinplay.css">
+    </head>
+    <body>
+        <!--using keycode.info to generate the key codes in respective to their keycode values-->
+        <div class= "keys">
+            <div data-key="65" class=key>
+                <kbd>A</kbd>
+                <span class="sound">tuni</span>
+            </div>
+
+            <div data-key="83"class=key>
+                 <kbd>S</kbd>
+                 <span class="sound">carna</span>                              
+            </div>
+            <div data-key="68" class=key>
+                <kbd>D</kbd>
+                <span class="sound">impul</span>
+            </div>
+            <div data-key="70" class=key>
+                <kbd>F</kbd>
+                <span class="sound">vpad</span>
+            </div>
+            <div data-key="71" class=key>
+                <kbd>G</kbd>
+                <span class="sound">pz1</span>
+            </div>
+            <div data-key="72" class=key>             
+                <kbd>H</kbd>
+                <span class="sound">p1b</span>
+            </div>
+            <div data-key="74" class=key>
+                <kbd>J</kbd>
+                <span class="sound">pz2</span>
+             </div>
+            <div data-key="75" class=key>
+                <kbd>K</kbd>
+                <span class="sound">pnast</span>
+            </div>
+            <div data-key="76" class=key>
+                <kbd>L</kbd>
+                <span class="sound">pz3</span>
+            </div>
+            <div data-key="80" class=key>
+                <kbd>P</kbd>
+                <span class="sound">viori</span>
+            </div>
+        
+        </div>
+        
+
+        <audio data-key="65" src="violin sounds/25454__freqman__violin-tuning.wav"></audio>
+        <audio data-key="83" src="violin sounds/429671__violinsimma__violin-carnatic-phrase-am.wav"></audio>
+        <audio data-key="68" src="violin sounds/494667__phonosupf__violin-impulse.wav"></audio>
+        <audio data-key="70" src="violin sounds/522685__justusnight005__violinpad.wav"></audio>
+        <audio data-key="71" src="violin sounds/61925__noisecollector__pizzastring1.wav"></audio>
+        <audio data-key="72" src="violin sounds/61926__noisecollector__pizzastring1b.wav"></audio>
+        <audio data-key="74" src="violin sounds/61927__noisecollector__pizzastring2.wav"></audio>
+        <audio data-key="75" src="violin sounds/61930__noisecollector__pizzastring4nasty.wav"></audio>
+        <audio data-key="76" src="violin sounds/6noisecollector__pizzastring3.wav"></audio>
+        <audio data-key="80" src="violin sounds/92002__jcveliz__violin-origional.wav"></audio>
+        <!--sound resource: freesound.org-->
+
+        <script src="violinplay.js"></script>
+       
+    </body>
+</html>

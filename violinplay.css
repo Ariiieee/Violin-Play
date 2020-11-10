@@ -1,0 +1,59 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  background: url(images/stefany-andrade-GbSCAAsU2Fo-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+
+.keys {
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.8;
+}
+
+
+.key {
+  border: 0.3rem solid #674403;
+  border-radius: 0.8rem;
+  font-size: 1.5rem;
+  margin: 1rem;
+  padding: 0.5rem 0.8rem;
+  transition: all 0.9s;
+  width: 4rem;
+  text-align: center;
+  background: black;
+  text-shadow: 0 0 0.5rem #674403;
+}
+
+
+.playing {
+  transform: scale(1.1);
+  text-transform: uppercase;
+  border-color: #fffbb6;
+  box-shadow: 0 0 1rem #fffbb6;
+  
+}
+
+
+kbd {
+  display: block;
+  font-size: 4rem;
+  color: #ffffff;
+}
+
+
+.sound {
+  color: #fffbb6;
+  letter-spacing: 0.1rem;
+  font-size: 1rem;
+  font-weight: 700; 
+}
